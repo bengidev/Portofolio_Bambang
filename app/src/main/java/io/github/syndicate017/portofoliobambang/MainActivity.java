@@ -49,19 +49,19 @@ public class MainActivity extends AppCompatActivity implements Callback {
     }
 
     private void setPortofolioFragment() {
-        getSupportFragmentManager().beginTransaction().replace(R.id.container, new PortofolioFragment()).commit();
+        getSupportFragmentManager().beginTransaction().setCustomAnimations(R.anim.anim_start, R.anim.anim_exit).replace(R.id.container, new PortofolioFragment()).commit();
     }
 
     private void setTeamFragment() {
-        getSupportFragmentManager().beginTransaction().replace(R.id.container, new TeamFragment()).commit();
+        getSupportFragmentManager().beginTransaction().setCustomAnimations(R.anim.anim_start, R.anim.anim_exit).replace(R.id.container, new TeamFragment()).commit();
     }
 
     private void setHomeFragment() {
-        getSupportFragmentManager().beginTransaction().replace(R.id.container, new HomeFragment()).commit();
+        getSupportFragmentManager().beginTransaction().setCustomAnimations(R.anim.anim_start, R.anim.anim_exit).replace(R.id.container, new HomeFragment()).commit();
     }
 
     private void setCVFragment() {
-        getSupportFragmentManager().beginTransaction().replace(R.id.container, new CVFragment()).commit();
+        getSupportFragmentManager().beginTransaction().setCustomAnimations(R.anim.anim_start, R.anim.anim_exit).replace(R.id.container, new CVFragment()).commit();
     }
 
     @Override

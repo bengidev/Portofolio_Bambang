@@ -46,10 +46,9 @@ public class CVFragment extends Fragment {
 
         //Create a list of cv items
         items = new ArrayList<>();
-        items.add(new CVItem("20 April 2013", getString(R.string.lorem_text)));
-        items.add(new CVItem("20 May 2013", getString(R.string.lorem_text2)));
-        items.add(new CVItem("20 June 2013", getString(R.string.lorem_text)));
-        items.add(new CVItem("20 July 2013", getString(R.string.lorem_text2)));
+        items.add(new CVItem("Program Sarjana (S1) - 2020", getString(R.string.sarjana)));
+        items.add(new CVItem("Program Diploma Tiga (DIII) - 2019", getString(R.string.diploma)));
+        items.add(new CVItem("Sekolah Menengah Kejuruan (SMK) - 2014", getString(R.string.smk)));
 
         adapter = new CVAdapter(items);
 

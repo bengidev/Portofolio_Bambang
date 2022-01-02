@@ -10,9 +10,18 @@
     <string name="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </string>
     <string name="job_name">Graphic Designer &amp; Programmer</string>
     <string name="lorem_text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</string>
-    <string name="current_job_post">Current Job Post</string>
-    <string name="diploma">Computer Science Diploma</string>
+
     <string name="name">Bambang Tri\nRahmat Doni</string>
 
+    <string name="title_tentang_saya">Tentang Saya</string>
+    <string name="title_pengalaman">Pengalaman</string>
+    <string name="title_kemampuan">Kemampuan</string>
+    <string name="tentang_saya">Perkenalkan, saya adalah Fresh Graduate dengan jenjang Strata Satu (S1) prodi Sistem Informasi dari Universitas Adhirajasa Reswara Sanjaya. Saya ingin dan akan terus belajar untuk mengembangkan diri sebagai seorang Android App Developer. Saya sangat sadar bahwa adapun kemampuan yang saya miliki saat ini sangat belum cukup, tetapi saya akan terus mempelajari apa yang belum saya miliki saat ini. Terimakasih.</string>
+    <string name="pengalaman">Untuk pengalaman yang saat ini saya miliki dalam bidang Android App Developer itu sendiri sangat minim sekali, namun saya akan berusaha untuk menyesuaikan diri dan akan sangat menghargai kesempatan yang perusahaan Bapak/Ibu berikan. Terimakasih.</string>
+    <string name="kemampuan">Saat ini, kemampuan yang saya miliki dengan tingkatan dasar adalah Git, Java Native, Android Studio, PostgreSQL dan beberapa aplikasi umum seperti Microsoft Office, dll.</string>
+
+    <string name="sarjana">Universitas Adhirajasa Reswara Sanjaya\nSarjana Komputer pada program studi Sistem Informasi. Fakultas Teknologi Informasi (FTI). \n IPK : 3.49 dari 4.00</string>
+    <string name="diploma">Universitas Bina Sarana Informatika\nAhli Madya Komputer pada program studi Sistem Informasi. Fakultas Teknik Informatika (FTI). \n IPK : 3.44 dari 4.00</string>
+    <string name="smk">SMK Negeri 6 - Pontianak \nJurusan Desain dan Produksi Kria. Bidang Desain dan Produksi Kria Kayu. Nilai Rata-Rata : 7.4 dari 10</string>
 
 </resources>

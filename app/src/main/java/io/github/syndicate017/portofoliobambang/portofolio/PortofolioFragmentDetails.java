@@ -45,6 +45,13 @@ public class PortofolioFragmentDetails extends BottomSheetDialogFragment {
         imgPortofolio = view.findViewById(R.id.portofolio_details_img);
         title = view.findViewById(R.id.portofolio_details_title);
         description = view.findViewById(R.id.portofolio_details_desc);
+
+        //First we need to get our portofolio object from the bundle we have sent
+        Bundle bundle = getArguments();
+        PortofolioItem item = (PortofolioItem) bundle.getSerializable("object");
+
+        //Now we have the item we need just to load it
+        loadPortofolioData(item);
     }
 
     public void loadPortofolioData(PortofolioItem item) {
