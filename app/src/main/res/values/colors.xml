@@ -55,4 +55,5 @@
     <color name="seed">#016870</color>
     <color name="error">#BA1B1B</color>
     <color name="cv_line_color">#E0E0E0</color>
+    <color name="icon_tint_light">#afafaf</color>
 </resources>

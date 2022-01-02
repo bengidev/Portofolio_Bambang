@@ -1,11 +1,17 @@
 package io.github.syndicate017.portofoliobambang.portofolio;
 
-public class PortofolioItem {
+import java.io.Serializable;
+
+public class PortofolioItem implements Serializable {
 
     private int image;
     private String title, description;
 
     public PortofolioItem() {
+    }
+
+    public PortofolioItem(int image) {
+        this.image = image;
     }
 
     public PortofolioItem(int image, String description) {

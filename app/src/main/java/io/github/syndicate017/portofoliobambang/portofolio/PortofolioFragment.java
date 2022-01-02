@@ -22,7 +22,7 @@ import io.github.syndicate017.portofoliobambang.R;
  * Use the {@link PortofolioFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class PortofolioFragment extends Fragment {
+public class PortofolioFragment extends Fragment implements PortofolioCallback{
 
     List<PortofolioItem> mdata;
     RecyclerView rv_portofolio;
@@ -47,20 +47,43 @@ public class PortofolioFragment extends Fragment {
 
         //Create a list of portofolio items
         mdata = new ArrayList<>();
-        mdata.add(new PortofolioItem());
-        mdata.add(new PortofolioItem());
-        mdata.add(new PortofolioItem());
-        mdata.add(new PortofolioItem());
-        mdata.add(new PortofolioItem());
-        mdata.add(new PortofolioItem());
-        mdata.add(new PortofolioItem());
-        mdata.add(new PortofolioItem());
-        mdata.add(new PortofolioItem());
+        mdata.add(new PortofolioItem(R.drawable.project0));
+        mdata.add(new PortofolioItem(R.drawable.project1));
+        mdata.add(new PortofolioItem(R.drawable.project2));
+        mdata.add(new PortofolioItem(R.drawable.project3));
+        mdata.add(new PortofolioItem(R.drawable.project4));
+        mdata.add(new PortofolioItem(R.drawable.project5));
+        mdata.add(new PortofolioItem(R.drawable.project6));
+        mdata.add(new PortofolioItem(R.drawable.project7));
+        mdata.add(new PortofolioItem(R.drawable.project0));
 
-        portofolioAdapter = new PortofolioAdapter(mdata);
+        portofolioAdapter = new PortofolioAdapter(mdata, this);
 
         //Set up grid recycle view
         rv_portofolio.setLayoutManager(new GridLayoutManager(getActivity(), 3));
         rv_portofolio.setAdapter(portofolioAdapter);
+    }
+
+    @Override
+    public void onPortofolioItemClick(int pos) {
+
+        //Handle click listener event when portofolio item clicked
+        //First we need to create a fragment bottom sheet instance
+
+        PortofolioFragmentDetails portofolioFragmentDetails = new PortofolioFragmentDetails();
+
+        //Now we need to send portofolio item to portofolio dialog fragment
+        //We will use bundle for that
+        //Also we need our portofolio item data class to implement serializable interface so we can send it
+
+        Bundle bundle = new Bundle();
+        bundle.putSerializable("object", mdata.get(pos));
+        portofolioFragmentDetails.setArguments(bundle);
+
+        //Now let's open the portofolio bottom sheet fragment
+        portofolioFragmentDetails.show(getActivity().getSupportFragmentManager(), "tagname");
+
+        //Now we done opening the bottom sheet
+        //Let's test it out
     }
 }

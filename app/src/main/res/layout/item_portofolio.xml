@@ -8,10 +8,11 @@
     android:orientation="vertical"
     android:foreground="?android:selectableItemBackground">
 
-    <TextView
-        android:id="@+id/item_port_text"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/item_portfolio_img"
         android:gravity="center"
-        android:text="1" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
 </LinearLayout>
