@@ -47,7 +47,7 @@ public class PortofolioFragment extends Fragment implements PortofolioCallback{
 
         //Create a list of portofolio items
         mdata = new ArrayList<>();
-        mdata.add(new PortofolioItem(R.drawable.project0));
+        mdata.add(new PortofolioItem(R.drawable.project0, "text example", getString(R.string.project1)));
         mdata.add(new PortofolioItem(R.drawable.project1));
         mdata.add(new PortofolioItem(R.drawable.project2));
         mdata.add(new PortofolioItem(R.drawable.project3));

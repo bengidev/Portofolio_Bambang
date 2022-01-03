@@ -46,9 +46,9 @@ public class TeamFragment extends Fragment {
         RvTeam = view.findViewById(R.id.rv_team);
 
         //Create list of team items
-        TeamItem item = new TeamItem("Stenly Andhika", getString(R.string.lorem_text2), R.drawable.user);
-        TeamItem item2 = new TeamItem("Bambang Tri", getString(R.string.lorem_text2), R.drawable.uservoyager);
-        TeamItem item3 = new TeamItem("Rahmat Doni", getString(R.string.lorem_text2), R.drawable.userspace);
+        TeamItem item = new TeamItem("Stenly Andhika", getString(R.string.stenly), R.drawable.userillust);
+        TeamItem item2 = new TeamItem("Nurbayu Sidik", getString(R.string.bayu), R.drawable.userspace);
+        TeamItem item3 = new TeamItem("Teruntuk dirimu, abjad huruf ke-12", getString(R.string.dirimu), R.drawable.dirimu);
 
         mdata = new ArrayList<>();
         mdata.add(item);

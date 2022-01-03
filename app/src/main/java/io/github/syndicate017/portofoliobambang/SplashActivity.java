@@ -21,6 +21,7 @@ public class SplashActivity extends AppCompatActivity {
 
         ////For hide the statusbar
 //        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
         setContentView(R.layout.activity_splash);
 
         imgBackground = findViewById(R.id.imgBackground);
@@ -29,10 +30,10 @@ public class SplashActivity extends AppCompatActivity {
 
         lottieAnim = findViewById(R.id.lottieAnim);
 
-        imgBackground.animate().translationY(-4000).setDuration(1000).setStartDelay(4000);
-        imgPortofolio.animate().translationY(3000).setDuration(1000).setStartDelay(4000);
-        imgProfile.animate().translationY(3000).setDuration(1000).setStartDelay(4000);
-        lottieAnim.animate().translationY(3000).setDuration(1000).setStartDelay(4000);
+        imgBackground.animate().translationY(-4000).setDuration(500).setStartDelay(3000);
+        imgPortofolio.animate().translationY(3000).setDuration(500).setStartDelay(3000);
+        imgProfile.animate().translationY(3000).setDuration(500).setStartDelay(3000);
+        lottieAnim.animate().translationY(3000).setDuration(500).setStartDelay(3000);
 
         new Handler().postDelayed(new Runnable() {
             @Override
@@ -41,6 +42,6 @@ public class SplashActivity extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
-        }, 5000);
+        }, 3600);
     }
 }

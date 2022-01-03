@@ -5,6 +5,8 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+
+import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -58,6 +60,12 @@ public class PortofolioFragmentDetails extends BottomSheetDialogFragment {
 
         Glide.with(getContext()).load(item.getImage()).into(imgPortofolio);
 
-        //bind title and description ...
+        //Bind title and description
+        title.findViewById(R.id.portofolio_details_title);
+        description.findViewById(R.id.portofolio_details_desc);
+
+        title.setText(item.getTitle());
+        description.setText(item.getDescription());
+
     }
 }

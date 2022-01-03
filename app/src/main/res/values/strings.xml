@@ -22,4 +22,12 @@
     <string name="diploma">Universitas Bina Sarana Informatika\nAhli Madya Komputer pada program studi Sistem Informasi. Fakultas Teknik Informatika (FTI). \n IPK : 3.44 dari 4.00</string>
     <string name="smk">SMK Negeri 6 - Pontianak \nJurusan Desain dan Produksi Kria. Bidang Desain dan Produksi Kria Kayu. Nilai Rata-Rata : 7.4 dari 10</string>
 
+    <string name="dibalik_proyek">Mereka dengan nama yang tersebut dibawah ini adalah orang-orang yang sangat berperan penting dibalik pembuatan proyek ini. \nJuga sebagai salah satu cara untuk mengucapkan kata Terimakasih secara tidak langsung, dan juga sebagai cara untuk membayar kontribusi mereka ketika pribadi ini tak punya cukup uang untuk memberi arti dari apa yang telah diberi sebagai kontribusi. \nSekali lagi pribadi ini mengucapkan banyak Terimakasih.</string>
+    <string name="stenly">Seorang pemuda dengan kemampuan membuat Program yang tak perlu lagi diragukan, sudi berkenalan dan membantu tepat pada saat pribadi ini diujung deadline pengerjaan TA sebagai syarat untuk menyelesaikan studi jenjang Diploma III. Julukan pemuda ini adalah Sang Sesepuh atau Shifu karena sudah lama menggunakan bahasa pemrograman Java. </string>
+    <string name="bayu">Seorang paruhbaya dengan bakat alami untuk mengabadikan momen abadi menggunakan teknik fotografi. Dipertemukan ketika pertama kali melanjutkan studi ditanah perantauan, tak perlu waktu lama untuk akrab karena berasal dari kota yang sama. Galerinya tersimpan rapi di dalam Instagram dengan nama @telatbangun_pagi. </string>
+    <string name="dirimu">Sosok perempuan yang sangat luarbiasa sejak saat dipertemukan pada kali pertama, bagaimana bisa aku tidak jatuh cinta ketika dirimu begitu terlalu mempesona, Nona. Aku berharap jangan anggap aku tak ada hanya karena tidak bersikap seperti biasa. Ketahuilah, aku juga sedang berusaha memantaskan diri, agar dirimu kelak bisa berbangga dengan pribadi ini. Berbahagialah selalu, Nona. </string>
+
+    <string name="portofolio">Berikut ini adalah beberapa program yang pernah saya kerjakan dengan kemampuan saya yang masih sangat terbatas ini. Saya mengerjakan program dibawah ini dengan hampir semuanya menggunakan bahasa pemrograman Java. Saya berharap ini bisa menjadi sebuah referensi untuk portofolio saya. Terimakasih. </string>
+    <string name="project1">Learn more about Android app development at <a href="https://learntodroid.com">LearnToDroid.com</a></string>
+
 </resources>
