@@ -9,14 +9,78 @@
         <entry key="app/src/main/res/drawable/ic_baseline_schedule_24.xml" value="0.2361111111111111" />
         <entry key="app/src/main/res/drawable/oval.xml" value="0.24351851851851852" />
         <entry key="app/src/main/res/drawable/team_card_bg.xml" value="0.2861111111111111" />
+        <entry key="app/src/main/res/layout-land/activity_main.xml" value="0.24739583333333334" />
+        <entry key="app/src/main/res/layout-land/activity_splash.xml" value="0.24739583333333334" />
+        <entry key="app/src/main/res/layout-land/fragment_cv.xml" value="0.24739583333333334" />
+        <entry key="app/src/main/res/layout-land/fragment_home.xml" value="0.24739583333333334" />
+        <entry key="app/src/main/res/layout-land/fragment_portofolio.xml" value="0.24739583333333334" />
+        <entry key="app/src/main/res/layout-land/fragment_portofolio_details.xml" value="0.24739583333333334" />
+        <entry key="app/src/main/res/layout-land/fragment_team.xml" value="0.24739583333333334" />
+        <entry key="app/src/main/res/layout-land/item_cv.xml" value="0.24739583333333334" />
+        <entry key="app/src/main/res/layout-land/item_menu.xml" value="0.24739583333333334" />
+        <entry key="app/src/main/res/layout-land/item_portofolio.xml" value="0.24739583333333334" />
+        <entry key="app/src/main/res/layout-land/item_team.xml" value="0.24739583333333334" />
+        <entry key="app/src/main/res/layout-sw320dp-land/activity_splash.xml" value="0.24114583333333334" />
+        <entry key="app/src/main/res/layout-sw320dp-port/activity_main.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout-sw320dp-port/activity_splash.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout-sw320dp/activity_main.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout-sw320dp/activity_splash.xml" value="0.202991452991453" />
+        <entry key="app/src/main/res/layout-sw320dp/fragment_cv.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout-sw320dp/fragment_home.xml" value="0.202991452991453" />
+        <entry key="app/src/main/res/layout-sw320dp/fragment_portofolio.xml" value="0.202991452991453" />
+        <entry key="app/src/main/res/layout-sw320dp/fragment_portofolio_details.xml" value="0.202991452991453" />
+        <entry key="app/src/main/res/layout-sw320dp/fragment_team.xml" value="0.202991452991453" />
+        <entry key="app/src/main/res/layout-sw320dp/item_cv.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout-sw320dp/item_menu.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout-sw320dp/item_portofolio.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout-sw320dp/item_team.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout-sw480dp-port/activity_main.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw480dp-port/activity_splash.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw480dp/activity_main.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw480dp/activity_splash.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw480dp/fragment_cv.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw480dp/fragment_home.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw480dp/fragment_portofolio.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw480dp/fragment_portofolio_details.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw480dp/fragment_team.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw480dp/item_cv.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw480dp/item_menu.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw480dp/item_portofolio.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw480dp/item_team.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw600dp-port/activity_main.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw600dp-port/activity_splash.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw600dp/activity_main.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw600dp/activity_splash.xml" value="0.37109375" />
+        <entry key="app/src/main/res/layout-sw600dp/fragment_cv.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw600dp/fragment_home.xml" value="0.465625" />
+        <entry key="app/src/main/res/layout-sw600dp/fragment_portofolio.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw600dp/fragment_portofolio_details.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw600dp/fragment_team.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw600dp/item_cv.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw600dp/item_menu.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw600dp/item_portofolio.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw600dp/item_team.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw720dp-port/activity_main.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw720dp-port/activity_splash.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw720dp/activity_main.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw720dp/activity_splash.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw720dp/fragment_cv.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw720dp/fragment_home.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw720dp/fragment_portofolio.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw720dp/fragment_portofolio_details.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw720dp/fragment_team.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw720dp/item_cv.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw720dp/item_menu.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw720dp/item_portofolio.xml" value="0.2328125" />
+        <entry key="app/src/main/res/layout-sw720dp/item_team.xml" value="0.2328125" />
         <entry key="app/src/main/res/layout/activity_example.xml" value="0.3104166666666667" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.3104166666666667" />
-        <entry key="app/src/main/res/layout/fragment_cv.xml" value="0.1824074074074074" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3104166666666667" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.24739583333333334" />
+        <entry key="app/src/main/res/layout/fragment_cv.xml" value="0.3104166666666667" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.3104166666666667" />
         <entry key="app/src/main/res/layout/fragment_portofolio.xml" value="0.26481481481481484" />
         <entry key="app/src/main/res/layout/fragment_portofolio_details.xml" value="0.3104166666666667" />
-        <entry key="app/src/main/res/layout/fragment_team.xml" value="0.1824074074074074" />
+        <entry key="app/src/main/res/layout/fragment_team.xml" value="0.3104166666666667" />
         <entry key="app/src/main/res/layout/item_cv.xml" value="0.3104166666666667" />
         <entry key="app/src/main/res/layout/item_menu.xml" value="0.21006643776681175" />
         <entry key="app/src/main/res/layout/item_portofolio.xml" value="0.26481481481481484" />
