@@ -47,15 +47,15 @@ public class PortofolioFragment extends Fragment implements PortofolioCallback{
 
         //Create a list of portofolio items
         mdata = new ArrayList<>();
-        mdata.add(new PortofolioItem(R.drawable.project0, "text example", getString(R.string.project1)));
-        mdata.add(new PortofolioItem(R.drawable.project1));
-        mdata.add(new PortofolioItem(R.drawable.project2));
-        mdata.add(new PortofolioItem(R.drawable.project3));
-        mdata.add(new PortofolioItem(R.drawable.project4));
-        mdata.add(new PortofolioItem(R.drawable.project5));
-        mdata.add(new PortofolioItem(R.drawable.project6));
-        mdata.add(new PortofolioItem(R.drawable.project7));
-        mdata.add(new PortofolioItem(R.drawable.project0));
+        mdata.add(new PortofolioItem(R.drawable.tictactoe, "Tic Tac Toe", getString(R.string.tictactoe)));
+        mdata.add(new PortofolioItem(R.drawable.media, "Media Demo", getString(R.string.media_demo)));
+        mdata.add(new PortofolioItem(R.drawable.flag, "Flag Anthem", getString(R.string.flag_anthem)));
+        mdata.add(new PortofolioItem(R.drawable.hanoi, "Tower of Hanoi", getString(R.string.tower_of_hanoi)));
+        mdata.add(new PortofolioItem(R.drawable.sierpinski, "Sierpinski Triangle", getString(R.string.sierpinski_triangle)));
+        mdata.add(new PortofolioItem(R.drawable.count_occurence, "Count Occurrence of Words Stream", getString(R.string.count_occurrence)));
+        mdata.add(new PortofolioItem(R.drawable.new_row, "New Row Demo", getString(R.string.new_row)));
+        mdata.add(new PortofolioItem(R.drawable.world_clock, "World Clock", getString(R.string.world_clock)));
+        mdata.add(new PortofolioItem(R.drawable.calendar, "Calendar", getString(R.string.calendar)));
 
         portofolioAdapter = new PortofolioAdapter(mdata, this);
 

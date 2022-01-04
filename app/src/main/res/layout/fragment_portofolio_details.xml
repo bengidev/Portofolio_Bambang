@@ -11,8 +11,8 @@
         android:id="@+id/portofolio_details_img"
         android:layout_width="0dp"
         android:layout_height="248dp"
-        android:scaleType="centerCrop"
-        android:src="@drawable/ic_launcher_background"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

@@ -30,6 +30,9 @@ public class SplashActivity extends AppCompatActivity {
 
         lottieAnim = findViewById(R.id.lottieAnim);
 
+        //For fix the animation from android version KitKat and Above
+        lottieAnim.enableMergePathsForKitKatAndAbove(true);
+
         imgBackground.animate().translationY(-4000).setDuration(500).setStartDelay(3000);
         imgPortofolio.animate().translationY(3000).setDuration(500).setStartDelay(3000);
         imgProfile.animate().translationY(3000).setDuration(500).setStartDelay(3000);
