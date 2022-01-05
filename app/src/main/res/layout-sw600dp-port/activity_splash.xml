@@ -21,8 +21,8 @@
 
     <ImageView
         android:id="@+id/imgProfile"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:src="@drawable/icon_profile"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.50"
@@ -32,8 +32,8 @@
     <ImageView
         android:id="@+id/imgPortofolio"
         android:layout_width="0dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="210dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="280dp"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -43,11 +43,11 @@
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/lottieAnim"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="160dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="220dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgProfile"
         app:lottie_autoPlay="true"

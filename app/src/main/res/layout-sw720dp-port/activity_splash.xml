@@ -21,33 +21,32 @@
 
     <ImageView
         android:id="@+id/imgProfile"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
         android:src="@drawable/icon_profile"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.50"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgPortofolio" />
 
     <ImageView
         android:id="@+id/imgPortofolio"
         android:layout_width="0dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="210dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="370dp"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imgBackground"
         app:srcCompat="@drawable/icon_portofolio" />
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/lottieAnim"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="160dp"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="280dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgProfile"
         app:lottie_autoPlay="true"
