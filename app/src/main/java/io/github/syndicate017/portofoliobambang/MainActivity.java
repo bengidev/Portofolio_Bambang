@@ -53,19 +53,19 @@ public class MainActivity extends AppCompatActivity implements Callback {
     }
 
     private void setPortofolioFragment() {
-        getSupportFragmentManager().beginTransaction().setCustomAnimations(R.anim.anim_start, R.anim.anim_exit).replace(R.id.container, new PortofolioFragment()).commit();
+        getSupportFragmentManager().beginTransaction().setCustomAnimations(R.animator.nav_default_enter_anim, R.animator.nav_default_exit_anim).replace(R.id.container, new PortofolioFragment()).commit();
     }
 
     private void setTeamFragment() {
-        getSupportFragmentManager().beginTransaction().setCustomAnimations(R.anim.anim_start, R.anim.anim_exit).replace(R.id.container, new TeamFragment()).commit();
+        getSupportFragmentManager().beginTransaction().setCustomAnimations(R.animator.nav_default_enter_anim, R.animator.nav_default_exit_anim).replace(R.id.container, new TeamFragment()).commit();
     }
 
     private void setHomeFragment() {
-        getSupportFragmentManager().beginTransaction().setCustomAnimations(R.anim.anim_start, R.anim.anim_exit).replace(R.id.container, new HomeFragment()).commit();
+        getSupportFragmentManager().beginTransaction().setCustomAnimations(R.animator.nav_default_enter_anim, R.animator.nav_default_exit_anim).replace(R.id.container, new HomeFragment()).commit();
     }
 
     private void setCVFragment() {
-        getSupportFragmentManager().beginTransaction().setCustomAnimations(R.anim.anim_start, R.anim.anim_exit).replace(R.id.container, new CVFragment()).commit();
+        getSupportFragmentManager().beginTransaction().setCustomAnimations(R.animator.nav_default_enter_anim, R.animator.nav_default_exit_anim).replace(R.id.container, new CVFragment()).commit();
     }
 
     @Override
